@@ -10,7 +10,7 @@ The set of attributes that in combination can uniquely identify individuals is c
 
 In reality, it is usually hard to determine which attributes will appear externally, so the ***k-anonymity requirement*** is introduced as a constraint to the released data. The idea is that the released data is said to satisfy the k-anonymity requirement if and only if each sequence of values in released data appears at least ***k*** times.
 
-## Processing of the data set 
+## Processing the data set 
 The given data set contains following attributes:
 > age | workclass | fnlwgt | education | educational-num | marital-status | occupation | relationship | race | gender | capital-gain | capital-loss | hours-per-week | native-country | income
 
