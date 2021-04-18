@@ -83,7 +83,7 @@ public class DataProcess{
             data.getDefinition().setAttributeType("fnlwgt", AttributeType.IDENTIFYING_ATTRIBUTE);
 
             // Assuming that Quasi-identifier[age, workclass, captial-gain, captial-loss, hours-per-week] 
-            // could used by linking with external datasets to uniquely identify a record in this dataset.
+            // could be used by linking with external datasets to uniquely identify a record in this dataset.
             data.getDefinition().setAttributeType("age", age);
             data.getDefinition().setAttributeType("occupation", occupation);
             data.getDefinition().setAttributeType("capital-gain", gain);
